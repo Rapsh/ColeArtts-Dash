@@ -1,55 +1,66 @@
-*{
+* {
   margin: 0;
   padding: 0;
+
 }
-body{
+
+body {
   background-color: rgba(255, 144, 113, 0.5);
   font-family: 'Roboto', sans-serif;
 }
-h1, h2, h3 {
+
+h1,
+h2,
+h3 {
   font-family: 'Roboto Serif', serif;
   text-transform: uppercase;
   color: #2D2C2A;
-  border:none;
+  border: none;
   border-radius: 10px;
 }
-ul{
+
+ul {
   list-style: none;
 }
+
 header {
   padding: 32px 0;
   text-align: center;
 }
-header h1{
+
+header h1 {
   margin-bottom: 4px;
   font-size: 28px;
   line-height: 33px;
 }
-header, section {
+
+header,
+section {
   max-width: 300px;
   margin: 0 auto;
 }
+
 header h1 span {
   color: rgb(255, 144, 113);
 }
-header p{
+
+header p {
   font-size: 14px;
   line-height: 16px;
 }
-section{
+
+section {
   margin-bottom: 24px;
 }
-section h2{
-  background-color: rgba(255, 144, 113, 0.4) ;
+
+section h2 {
+  background-color: rgba(255, 144, 113, 0.4);
   padding: 8px 16px;
   text-align: center;
   margin-bottom: 24px;
   font-size: 18px;
 }
-ul li {
-  margin-bottom:16px;
-  display:flex;
-}
+
 
 li .details {
   max-width: 240px;
@@ -61,56 +72,29 @@ li .details {
   line-height: 19px;
 }
 
-.details img{
+
+#btn-insta,
+#wpp-btn,
+#btn-glg,
+#btn-shopee {
   height: 30px;
-    
-}
-#btnwpp{
-  position: absolute;
-  left: 57.8%;
-  top: 30%;
-}
-#wpp-btn{
-  height: 25px;
 }
 
-#btninsta{
-  position: absolute;
-    left: 57.8%;
-    top: 62%;
-}
-#btn-glg{
-  height: 35px;
-}
-
-#btnglg{
-  position: absolute;
-    left: 57.5%;
-    top: 40%;
-}
-
-#btnshopee{
-  height: 35px;
-}
-
-#btn-shopee{
-  position: absolute;
-    left: 57.8%;
-    top: 72%;
-}
-
-
-.description{
+.description {
   display: flex;
   flex-direction: row;
-  
+
 }
 
+.container {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
 
 .details p {
-  color: rgba(0,0,0, 0.6);
+  color: rgba(0, 0, 0, 0.6);
   font-size: 14px;
   line-height: 21px;
-  
-}
 
+}
